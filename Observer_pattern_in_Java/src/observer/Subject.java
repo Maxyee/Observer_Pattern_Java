@@ -23,7 +23,7 @@ public class Subject {
 	
 	public void notifyAllObservers(){
 		for(Observer observer : observers){
-			observer.update(null,observer);
+			observer.update();
 		}
 	}
 		
